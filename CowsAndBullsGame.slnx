@@ -1,0 +1,22 @@
+﻿<Solution>
+  <Project Path="NativeShare.Editor.csproj" />
+  <Project Path="PlayFabEditorExtensions.csproj" />
+  <Project Path="PlayFab.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="CFXRRuntime.csproj" />
+  <Project Path="CFXRDemo.csproj" />
+  <Project Path="CFXREditor.csproj" />
+  <Project Path="Coffee.UIParticle.Demo.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Coffee.UIParticle.PerformanceDemo.csproj" />
+  <Project Path="GoogleMobileAds.Editor.csproj" />
+  <Project Path="KinoBloom.Runtime.csproj" />
+  <Project Path="NativeShare.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="CFXR.WelcomeScreen.csproj" />
+  <Project Path="PlayFabSDKEditor.csproj" />
+  <Project Path="Coffee.NanoMonitor.csproj" />
+  <Project Path="FirebaseMessagingActivityGenerator.csproj" />
+  <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+  <Project Path="Coffee.CFX_Demo_With_UIParticle.csproj" />
+</Solution>

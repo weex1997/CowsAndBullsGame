@@ -18,7 +18,15 @@ public class AdmobAdsManager : MonoBehaviour
     string interId = "ca-app-pub-3940256099942544/4411468910";//"ca-app-pub-4418846178940302/3001769834";
     string rewardedId = "ca-app-pub-3940256099942544/1712485313";//"ca-app-pub-4418846178940302/1688688166";
 
+#elif UNITY_EDITOR
+    public string appId = "ca-app-pub-3940256099942544~3347511713";// "ca-app-pub-4418846178940302~8445668203";
+    string bannerId = "ca-app-pub-3940256099942544/6300978111";//"ca-app-pub-4418846178940302/7132586538";
+    string interId = "ca-app-pub-3940256099942544/1033173712";//"ca-app-pub-4418846178940302/6455312570";
+    string rewardedId = "ca-app-pub-3940256099942544/5224354917";//"ca-app-pub-4418846178940302/1011414205";
+
 #endif
+
+
 
     // Singleton instance.
     public static AdmobAdsManager Instance = null;

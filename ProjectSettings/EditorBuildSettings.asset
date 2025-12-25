@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Masseges.unity
     guid: 7b54d9178e25dc54bbe3480123d994a5
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: ecaee6b1380928043bb684a34948990a, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 748cbe119424a13459e2335d6bd679a5, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 58cc2d0ade45d79409198471d7e677ac, type: 2}
   m_UseUCBPForAssetBundles: 0
