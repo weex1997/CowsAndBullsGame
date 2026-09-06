@@ -87,26 +87,12 @@ MonoBehaviour:
     m_Key: Challnge Place {0}
     m_Metadata:
       m_Items: []
-  - m_Id: 1063902877515776
-    m_Key: 'Game by:'
-    m_Metadata:
-      m_Items: []
   - m_Id: 1064210210947072
-    m_Key: 'Special thanks for:'
+    m_Key: 'Game By:'
     m_Metadata:
       m_Items: []
   - m_Id: 1064405447409664
-    m_Key: 'Wedad Almehmadi & Q Star
-
-
-      Esraa Aljohani - Abeer Bagazi
-
-      Ahmed
-      Alghamdi - Hebah Alshawarib
-
-      Naif Alanazi - Snowy
-
-      Mohammad AL-Arkobi'
+    m_Key: Wedad Almehmadi
     m_Metadata:
       m_Items: []
   m_Metadata:

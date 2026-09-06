@@ -97,21 +97,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 4030909093599772808
-  - m_Id: 1063902877515776
+  - m_Id: 1064210210947072
     m_Localized: ":\uFE94\uFE92\uFECC\uFEE0\uFEDF\u0627 \u0631\uFEEE\uFEC4\uFEE3"
     m_Metadata:
       m_Items: []
-  - m_Id: 1064210210947072
-    m_Localized: ":\u0635\uFE8E\uFEA7 \uFEAE\uFEDC\uFEB7"
-    m_Metadata:
-      m_Items: []
   - m_Id: 1064405447409664
-    m_Localized: "\u0631\uFE8E\uFE98\uFEB3 \uFEEE\uFEF4\uFEDB - \u064A\u062F\uFE8E\uFEE4\uFEA4\uFEE4\uFEDF\u0627
-      \u062F\u0627\u062F\u0648\n\n \u064A\u0632\uFE8E\uFED7\uFE8E\uFE91 \uFEAE\uFEF4\uFE92\uFECB
-      - \uFEF2\uFEE8\uFEEC\uFEA0\uFEDF\u0627 \u0621\u0627\uFEAE\uFEB3\u0625\n\uFEF2\uFE91\u0631\u0627\uFEEE\uFEB8\uFEDF\u0627
-      \uFE94\uFE92\uFEEB - \u064A\uFEAA\uFEE3\uFE8E\uFED0\uFEDF\u0627 \uFEAA\uFEE4\uFEA3\u0623\n
-      \u064A\uFEEE\uFEE8\uFEB3 - \u064A\uFEB0\uFEE8\uFECC\uFEDF\u0627 \uFED2\uFEF3\uFE8E\uFEE7
-      \n\r\uFEF2\uFE91\uFEEE\uFEDB\uFEAE\uFEDF\u0627 \uFEAA\uFEE4\uFEA4\uFEE3 "
+    m_Localized: "\u064A\u062F\uFE8E\uFEE4\uFEA4\uFEE4\uFEDF\u0627 \u062F\u0627\u062F\u0648"
     m_Metadata:
       m_Items: []
   references:

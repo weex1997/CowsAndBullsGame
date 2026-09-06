@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9c512a115f77a4bf5b11cc20cd9c0c79, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3326061043720
+    m_Localized: That's everything. Let's start the game!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043719
+    m_Localized: Solve it before your attempts run out. Fewer attempts used means
+      more points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043718
+    m_Localized: The timer starts with the stage. Faster means more points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043717
+    m_Localized: This is your current stage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043716
+    m_Localized: These slots show how many digits you're looking for.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043715
+    m_Localized: Your digits appear here as you type them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043714
+    m_Localized: This deletes it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043713
+    m_Localized: This submits your guess.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326061043712
+    m_Localized: Use these buttons to enter your digits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849422
+    m_Localized: And this one removes a digit that isn't in the hidden number.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849421
+    m_Localized: This tool reveals one bull for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849420
+    m_Localized: The dice give you a random guess.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849419
+    m_Localized: Use the marks however you like. They're yours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849418
+    m_Localized: A third tap clears the mark.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849417
+    m_Localized: Two taps mark it <sprite index=5> - for digits you're sure about.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849416
+    m_Localized: One tap marks it <sprite index=4> - for digits you think aren't
+      in the number.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849415
+    m_Localized: Tap any digit in your past guesses to mark it. This is just for
+      you - it helps you keep track.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849414
+    m_Localized: Get all bulls and you win the stage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849413
+    m_Localized: A bull <sprite index=3> means the digit is in the hidden number
+      and in the right spot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849412
+    m_Localized: A cow <sprite index=2> means the digit is in the hidden number,
+      but in the wrong spot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849411
+    m_Localized: 'After each guess you get cows and bulls. Here: 1 <sprite index=2>
+      and 1 <sprite index=3>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849410
+    m_Localized: These are all the guesses you've made so far.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849409
+    m_Localized: This is your guess.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326056849408
+    m_Localized: Let's walk through the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3326044266496
+    m_Localized: Find the hidden number. Start with any guess, and use the cows and
+      bulls you get back to close in on the answer.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

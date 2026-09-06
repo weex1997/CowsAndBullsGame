@@ -30,11 +30,11 @@ public class MainMnueButtons : MonoBehaviour
 
     public void addHint()
     {
-        AdmobAdsManager.Instance.ShowRewardedAd(true, false, false, true);
+        
     }
     public void addHintRemove()
     {
-        AdmobAdsManager.Instance.ShowRewardedAd(false, true, false, true);
+        
     }
     public void OpenWindow(GameObject window)
     {
@@ -230,12 +230,7 @@ public class MainMnueButtons : MonoBehaviour
         DataPristinceManager.Instance.NewGame();
         DataPristinceManager.Instance.itsNewGame = true;
         DataPristinceManager.Instance.runOnce = true;
-
-        //rest ads
-        bool val = false;
-        PlayerPrefs.SetInt("haveAds", val ? 1 : 0);
-        PlayerPrefs.SetInt("haveAttemptAds", val ? 1 : 0);
-        PlayerPrefs.Save();
+        
     }
 
     public void Continue()

@@ -78,17 +78,11 @@ public class PrintInput : MonoBehaviour
         if (bulls == GameManager.Instance.Lenght)
         {
             GameManager.Instance.itsWinning = true;
-            AdmobAdsManager.Instance.ShowInterstitialAd();
         }
         //lose
-        else if (GameManager.Instance.totalAttempts <= 0 && PlayerPrefs.GetInt("haveAttemptAds") == 0 ? true : false && !GameManager.Instance.itsWinning)
-        {
-            SceneManager.LoadScene("Masseges", LoadSceneMode.Additive);
-        }
-        else if (GameManager.Instance.totalAttempts <= 0 && PlayerPrefs.GetInt("haveAttemptAds") == 1 ? true : false && !GameManager.Instance.itsWinning)
+        else if (GameManager.Instance.totalAttempts <= 0 && !GameManager.Instance.itsWinning)
         {
             GameManager.Instance.itsLosing = true;
-            AdmobAdsManager.Instance.ShowInterstitialAd();
         }
 
         Debug.Log(cows + " Cows And " + bulls + " Bulls");

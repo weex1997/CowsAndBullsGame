@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Arabic (ar)
   m_GUID: 437dcbd9d34c1fe4fa839eb568408578
   m_SerializeEntries:
+  - m_GUID: 2d887c2bf3e494afeb0fb609a62ee775
+    m_Address: Tutorial_ar
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ar
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6304cef3977261f44892431bda4f8c5b
     m_Address: StringTable_ar
     m_ReadOnly: 1

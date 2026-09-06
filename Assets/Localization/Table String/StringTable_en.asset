@@ -95,26 +95,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 4030909093599772809
-  - m_Id: 1063902877515776
-    m_Localized: 'Game by:'
-    m_Metadata:
-      m_Items: []
   - m_Id: 1064210210947072
-    m_Localized: 'Special thanks for:'
+    m_Localized: 'Game By:'
     m_Metadata:
       m_Items: []
   - m_Id: 1064405447409664
-    m_Localized: 'Wedad Almehmadi & Q Star
-
-
-      Esraa Aljohani - Abeer Bagazi
-
-      Ahmed
-      Alghamdi - Hebah Alshawarib
-
-      Naif Alanazi - Snowy
-
-      Mohammad AL-Arkobi'
+    m_Localized: Wedad Almehmadi
     m_Metadata:
       m_Items: []
   references:

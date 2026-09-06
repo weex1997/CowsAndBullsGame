@@ -1,31 +1,24 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
-using UnityEngine.UI;
 
 public class LocalizationManager : MonoBehaviour
 {
     public TMP_Dropdown dropDown;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    IEnumerator Start()
     {
-        dropDown.onValueChanged.AddListener(delegate { DropdownItemSelected(dropDown); });//dropDown listener
+        yield return LocalizationSettings.InitializationOperation;
+
+        int index = LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale);
+        dropDown.SetValueWithoutNotify(Mathf.Max(0, index));
+
+        dropDown.onValueChanged.AddListener(OnLocaleChanged);
     }
 
-    public void DropdownItemSelected(TMP_Dropdown dropdown)
+    public void OnLocaleChanged(int index)
     {
-        switch (dropdown.value)
-        {
-            case 0:
-                LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
-                break;
-            case 1:
-                LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
-                break;
-            default:
-                LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
-                break;
-        }
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
     }
 }

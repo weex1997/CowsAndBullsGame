@@ -23,10 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinningWindow.unity
     guid: 4fb70f84f26f61c46917a28ee66061f3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Masseges.unity
     guid: 7b54d9178e25dc54bbe3480123d994a5
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 748cbe119424a13459e2335d6bd679a5, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 58cc2d0ade45d79409198471d7e677ac, type: 2}
-  m_UseUCBPForAssetBundles: 0

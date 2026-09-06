@@ -69,10 +69,13 @@ public class GameButtonsManager : MonoBehaviour
 
         }
     }
-    public void ShareWindow(GameObject window)
+    public void CloseShareWindow(GameObject window)
     {
         window.SetActive(false);
+        if (winningWindow != null)
         winningWindow.SetActive(true);
+        if (LosingWindow != null)
+            LosingWindow.SetActive(true);
         GameManager.Instance.Corsier.SetActive(true);
 
     }
@@ -114,8 +117,6 @@ public class GameButtonsManager : MonoBehaviour
             PlayerPrefs.SetInt("Hint", hint);
             PlayerPrefs.Save();
         }
-        else
-            AdmobAdsManager.Instance.ShowRewardedAd(true, false, false, false);
     }
     public void ShowHint()
     {
@@ -145,8 +146,6 @@ public class GameButtonsManager : MonoBehaviour
             PlayerPrefs.SetInt("HintRemove", hint);
             PlayerPrefs.Save();
         }
-        else
-            AdmobAdsManager.Instance.ShowRewardedAd(false, true, false, false);
     }
     public void ShowHintRemoveNumbers()
     {
