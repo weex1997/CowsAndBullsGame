@@ -67,7 +67,7 @@ Guesses are spawned as prefab rows into a scrolling container. The receipt anima
 
 Save data is serialized to JSON in the platform's persistent data path, gathered from any component implementing `IDataPrisistence`.
 
-Full write-up: **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
+Full write-up: **[docs/ARCHITECTURE.md](https://github.com/we-dad/CowsAndBullsGame/blob/8784f23709a9a1472591077abb723abd5b8ba23e/Architecture.md)**
 
 ## Problems worth reading about
 
