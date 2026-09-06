@@ -73,7 +73,7 @@ Full write-up: **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
 
 Three months solo produced a few things worth documenting properly — why the obvious approaches to the receipt animation didn't work, how to share a scrolling board as one image, and a localization design that's fragile in a way that doesn't show up in code review.
 
-They're written up in **[docs/CHALLENGES.md](docs/CHALLENGES.md)**.
+They're written up in **[docs/CHALLENGES.md](https://github.com/we-dad/CowsAndBullsGame/blob/4e8699f255497900dd1639ab42aafc68c9c67d46/Challenges.md)**.
 
 ## Running it
 
