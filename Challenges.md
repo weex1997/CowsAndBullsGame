@@ -2,8 +2,6 @@
 
 Problems I hit building Cows & Bulls over three months as a solo developer, and how I handled them. Each entry gives the symptom, the diagnosis, the alternatives I weighed, and what it taught me.
 
-> **On evidence.** The game shipped without analytics instrumentation, so there are no production metrics here. Where a claim can be checked against the code, the file and line are cited.
-
 ---
 
 ## 1. Making guesses feel printed rather than listed
