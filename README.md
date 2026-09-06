@@ -75,13 +75,13 @@ Guesses are spawned as prefab rows into a scrolling container. The receipt anima
 
 Save data is serialized to JSON in the platform's persistent data path, gathered from any component implementing `IDataPrisistence`.
 
-Full write-up: **[ARCHITECTURE.md](https://github.com/we-dad/CowsAndBullsGame/blob/2adb966f7413ad5de94082a51e2f475ed862e0fc/Architecture.md)**
+Full write-up: **[Architecture.md](Architecture.md)**
 
 ## Problems worth reading about
 
 Three months solo produced a few things worth documenting properly — why the obvious approaches to the receipt animation didn't work, how to share a scrolling board as one image, and a localization design that's fragile in a way that doesn't show up in code review.
 
-They're written up in **[CHALLENGES.md](https://github.com/we-dad/CowsAndBullsGame/blob/2adb966f7413ad5de94082a51e2f475ed862e0fc/Challenges.md)**.
+They're written up in **[Challenges.md](Challenges.md)**.
 
 ## Running it
 
