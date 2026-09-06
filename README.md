@@ -27,7 +27,7 @@ A friend who loved the pen-and-paper version pushed me to make a digital one. In
 
 The art is hand-painted rather than vector, which is what keeps the machine feeling like an object you're holding instead of a diagram of one.
 
-**Role:** Solo developer · **Duration:** 3 months · **Engine:** Unity 2020.3.34f1
+**Role:** Solo developer · **Duration:** 3 months · **Engine:** Unity 6000.4.7f1
 
 ## How to play
 
@@ -81,7 +81,7 @@ Full write-up: **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
 
 Three months solo produced a few things worth documenting properly — why the obvious approaches to the receipt animation didn't work, how to share a scrolling board as one image, and a localization design that's fragile in a way that doesn't show up in code review.
 
-They're written up in **[docs/CHALLENGES.md](docs/CHALLENGES.md)**.
+They're written up in **[CHALLENGES.md](docs/CHALLENGES.md)**.
 
 ## Running it
 
@@ -89,7 +89,7 @@ They're written up in **[docs/CHALLENGES.md](docs/CHALLENGES.md)**.
 git clone https://github.com/we-dad/CowsAndBullsGame.git
 ```
 
-Open the project in **Unity 2020.3.34f1**. PlayFab needs a title ID configured in its settings asset before the leaderboard will connect; everything else runs offline.
+Open the project in **Unity 6000.4.7f1**. PlayFab needs a title ID configured in its settings asset before the leaderboard will connect; everything else runs offline.
 
 Ads were removed in v2.9.0 — the game ships with no monetization.
 
