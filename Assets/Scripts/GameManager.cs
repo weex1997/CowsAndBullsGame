@@ -205,10 +205,10 @@ public class GameManager : MonoBehaviour, IDataPrisistence
                 // give a random numbers
                 for (int j = 0; j < Lenght; j++)
                 {
-                    int RandNum = Random.Range(0, 9);
+                    int RandNum = Random.Range(0, 10);
                     while (random.Contains(RandNum))
                     {
-                        RandNum = Random.Range(0, 9);
+                        RandNum = Random.Range(0, 10);
                     }
                     random.Add(RandNum);
                     PuzzelAttempString += RandNum.ToString();
