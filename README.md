@@ -6,7 +6,7 @@
   <p><strong>A number guessing game you play on a receipt printer.</strong></p>
 
   <p>
-    <img src="https://img.shields.io/badge/Unity-2020.3.34f1-black?logo=unity" alt="Unity"/>
+    <img src="https://img.shields.io/badge/Unity-6000.4.7f1-black?logo=unity" alt="Unity"/>
     <img src="https://img.shields.io/badge/C%23-gameplay-239120" alt="C#"/>
     <img src="https://img.shields.io/badge/backend-PlayFab-blue" alt="PlayFab"/>
     <img src="https://img.shields.io/badge/languages-AR%20%7C%20EN-lightgrey" alt="Arabic and English"/>
