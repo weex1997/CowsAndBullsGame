@@ -422,10 +422,10 @@ public class GameManager : MonoBehaviour, IDataPrisistence
         // give a random numbers
         for (int j = 0; j < Lenght; j++) // -> 4
         {
-            Rand = Random.Range(0, 9); //-> 5
+            Rand = Random.Range(0, 10); //-> 5
             while (hiddenNumberList.Contains(Rand))
             {
-                Rand = Random.Range(0, 9);
+                Rand = Random.Range(0, 10);
             }
             hiddenNumberList.Add(Rand);
             Debug.Log(hiddenNumberList[j]);

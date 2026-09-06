@@ -88,10 +88,10 @@ public class GameButtonsManager : MonoBehaviour
         // give a random numbers
         for (int j = 0; j < keyboardManager.Instance.input.Count; j++) // -> 4
         {
-            int Rand = Random.Range(0, 9); //-> 5
+            int Rand = Random.Range(0, 10); //-> 5
             while (random.Contains(Rand))
             {
-                Rand = Random.Range(0, 9);
+                Rand = Random.Range(0, 10);
             }
             random.Add(Rand);
             keyboardManager.Instance.input[j].text = Rand.ToString();
@@ -149,10 +149,10 @@ public class GameButtonsManager : MonoBehaviour
     }
     public void ShowHintRemoveNumbers()
     {
-        int Rand = Random.Range(0, 9); //-> 5
+        int Rand = Random.Range(0, 10); //-> 5
         while (GameManager.Instance.hiddenNumberList.Contains(Rand))
         {
-            Rand = Random.Range(0, 9);
+            Rand = Random.Range(0, 10);
         }
 
         SoundManager.Instance.RandomSoundEffect(ClipXOFatorh);
