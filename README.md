@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="images/f11805456d9f3d08.png" width="150" alt="Cows &amp; Bulls"/>
+  <img src="images/f11805456d9f3d08.png" width="140" alt="Cows &amp; Bulls"/>
 
   <h1>Cows &amp; Bulls</h1>
 
-  <p><strong>A number guessing game that prints your results on a receipt.</strong></p>
+  <p><strong>A number guessing game you play on a receipt printer.</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/Unity-2020.3.34f1-black?logo=unity" alt="Unity"/>
@@ -11,6 +11,10 @@
     <img src="https://img.shields.io/badge/backend-PlayFab-blue" alt="PlayFab"/>
     <img src="https://img.shields.io/badge/languages-AR%20%7C%20EN-lightgrey" alt="Arabic and English"/>
   </p>
+
+  <br/>
+
+  <img src="images/gameplay.gif" width="280" alt="Entering a guess and watching the receipt print"/>
 </div>
 
 ---
@@ -19,7 +23,9 @@
 
 Cows & Bulls is a logic-based number guessing game I built solo over three months. The rules are old — people have played this with pencil and paper for generations — but the presentation is the part I cared about.
 
-A friend who loved the pen-and-paper version pushed me to make a digital one. Rather than listing guesses in a scrolling table, I built the results around a virtual **receipt printer**: every guess prints as a paper slip that slides out of the machine and pushes the previous ones up. That one decision turned a spreadsheet of numbers into something physical, and it ended up driving most of the game's UI work.
+A friend who loved the pen-and-paper version pushed me to make a digital one. Instead of putting the game in a normal app UI, I built the whole thing as a **card payment terminal**: you type your guess on its keypad, and the machine prints your result on a paper receipt that feeds out of the top. Every element belongs to the device — the keypad, the display, the timer strip, the printed slip. That one decision drove most of the game's UI work, and it's the reason results look like a receipt rather than a scrolling table.
+
+The art is hand-painted rather than vector, which is what keeps the machine feeling like an object you're holding instead of a diagram of one.
 
 **Role:** Solo developer · **Duration:** 3 months · **Engine:** Unity 2020.3.34f1
 
@@ -34,6 +40,14 @@ Guess `1234` against a hidden `1439` and you get one bull (the `1`) and two cows
 
 ## Features
 
+### Deduction marks that carry onto the receipt
+
+<img src="images/Screenshot 2024-01-29 110840.png" width="300" alt="Digit marking on the keypad"/>
+
+Players were tracking possibilities on paper next to the phone, so I moved that into the machine. Tapping a digit on the keypad marks it — `X` for ruled out, `O` for likely — and the mark stays for the rest of the round.
+
+The part I like most is that the marks follow the digits onto the printed receipt: a guess whose digits you've since eliminated prints with those digits struck through, so an old slip tells you at a glance that it's already been ruled out. The scratchpad and the history end up being the same surface.
+
 ### Online leaderboard
 
 <div>
@@ -47,13 +61,7 @@ Scores are stored through the **PlayFab API**. A dedicated manager handles authe
 
 <img src="images/photo_2024-01-27_22-12-28.jpg" width="300" alt="Shared result image"/>
 
-A screenshot of a scrolling board only captures whatever happens to be on screen, which is rarely the interesting part. Instead, the full guess history is composed into a separate camera view and captured as a single render, then handed to the native share sheet with a message — so what gets shared is the whole game, not a fragment of it.
-
-### Deduction aids
-
-<img src="images/Screenshot 2024-01-29 110840.png" width="300" alt="Digit marking"/>
-
-Players were tracking possibilities on paper next to the phone, so I moved that into the game. Tapping a digit marks it: `X` for ruled out, `O` for likely. The marks persist across guesses, which turns the number row into a working scratchpad.
+A screenshot of a scrolling board only captures whatever happens to be on screen, which is rarely the interesting part. Instead, the full receipt is composed into a separate camera view and captured as a single render, then handed to the native share sheet with a message — so what gets shared is the whole game, not a fragment of it.
 
 ### Arabic and English
 
@@ -67,13 +75,13 @@ Guesses are spawned as prefab rows into a scrolling container. The receipt anima
 
 Save data is serialized to JSON in the platform's persistent data path, gathered from any component implementing `IDataPrisistence`.
 
-Full write-up: **[docs/ARCHITECTURE.md](https://github.com/we-dad/CowsAndBullsGame/blob/8784f23709a9a1472591077abb723abd5b8ba23e/Architecture.md)**
+Full write-up: **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
 
 ## Problems worth reading about
 
 Three months solo produced a few things worth documenting properly — why the obvious approaches to the receipt animation didn't work, how to share a scrolling board as one image, and a localization design that's fragile in a way that doesn't show up in code review.
 
-They're written up in **[docs/CHALLENGES.md](https://github.com/we-dad/CowsAndBullsGame/blob/4e8699f255497900dd1639ab42aafc68c9c67d46/Challenges.md)**.
+They're written up in **[docs/CHALLENGES.md](docs/CHALLENGES.md)**.
 
 ## Running it
 
